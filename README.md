@@ -14,6 +14,7 @@ This project is a hands-on implementation of GPT using the Transformer architect
 - How context length (block_size) impacts the quality of generation.
 - Training optimization techniques like dropout and AdamW.
 - How language models generate coherent text by predicting the next character.
+
 ---
 
 ## Features
@@ -38,7 +39,9 @@ On Google Colab with:
 
 The model trains in ~10-15 minutes and reduces cross-entropy loss from ~4.25 to ~1.59, generating coherent English-style text from your dataset.
 
-⚙️ Model Details
+---
+
+## Model Details
 - Tokenization: Character-level
 - Architecture: Decoder-only Transformer
 - Loss: Cross-entropy
@@ -46,7 +49,9 @@ The model trains in ~10-15 minutes and reduces cross-entropy loss from ~4.25 to 
 - Regularization: Dropout (p=0.2)
 - Training loop: max_iters = 5000 with periodic loss evaluation and sample generation
 
-**Example generated text after training:**
+---
+
+## Example generated text after training
 
 BELBOLAND:
 That smy lord?
@@ -74,5 +79,5 @@ PETENIA:
 Com
 
 
-
-This repository contains a **GPT language model implementation from scratch** in PyTorch, following Andrej Karpathy's [Zero to Hero](https://www.youtube.com/@karpathy) series.
+<!-- 
+This repository contains a **GPT language model implementation from scratch** in PyTorch, following Andrej Karpathy's [Zero to Hero](https://www.youtube.com/@karpathy) series. -->
